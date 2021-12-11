@@ -18,3 +18,5 @@ __Steps__:
 8) нам нужно будет имплементировать webpack, поэтому создадим отдельную ветку и переключимся на нее - git checkout -b "webpack"
 9) создадим новый файл webpack.config
 10) теперь мы хотим зафиксировать изменения с локальной машины на удаленный репозиторий, но не сливать их с веткой main - git add .
+11) пишем - git commit -m "create webpack config"
+12) пушим все в ветку webpack - git push -u origin webpack
