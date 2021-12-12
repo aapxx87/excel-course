@@ -1,4 +1,31 @@
 Block: настройка окружения
+Unit 3: Базовая настройка
+Link: https://vladilen.ru/pl/teach/control/lesson/view?id=193480297
+
+__Topics__:
+
+__Steps__:
+1) идем на оф сайт webpack - https://webpack.js.org/guides/getting-started/#basic-setup - там расписаны все шаги
+2) инициализируем npm - npm init -y
+3) в package.json добавляем параметр: "privat": true, что говорит что наш проект приватный, чтобы случайно его не опубликовать
+4) теперь устанавливаем сам webpack - npm install webpack webpack-cli --save-dev
+5) создадим папку src, чтобы разграничить файлы исходники и системные файлы нашего приложения, в ней создадим index.js - входной файл нашего проекта
+6) webpack.config.js - переходим к конфигу вебпака, то есть нам нужно вернуть из него объект
+7) теперь нужно протестировать все, добавить для этого в package.json скрипт: "start": "webpack --mode=development", "build": "webpack --mode=production"
+8) запускаем dev mode = npm run start -> после этого появляется папка dist c файлом main.bundle.js
+
+
+
+
+
+
+
+
+
+
+__________________________________________
+
+Block: настройка окружения
 Unit 2: Настройка и работа с Git
 Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160210267
 
@@ -19,4 +46,4 @@ __Steps__:
 9) создадим новый файл webpack.config
 10) теперь мы хотим зафиксировать изменения с локальной машины на удаленный репозиторий, но не сливать их с веткой main - git add .
 11) пишем - git commit -m "create webpack config"
-12) пушим все в ветку webpack - git push -u origin webpack
+12) пушим все в ветку webpack - git push -u origin webpack - опять выдало ошибку с аутентификацией, но я без проблем залил через Десктоп в нужную ветку
