@@ -1,1 +1,4 @@
-console.log('Hi')
+import './scss/index.scss'
+
+
+console.log('Index.js'Hi)
