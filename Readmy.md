@@ -9,6 +9,7 @@ __Topics__:
 
 __Steps__:
 1) добавим package-lock.json в гит - либо "git add .", либо правой кнопкой по файлу - Git - Add
+<<<<<<< HEAD
 2) добавим коммит - git commit -m "finish project config" - либо cmd + k
 3) запушим коммит, либо cmd + shift + k - либо "git push -u origin webpack"
 4) далее мы создаем pull request - заходим в репу на гитхабе и нажимаем на кнопку Compare & pull request
@@ -16,6 +17,8 @@ __Steps__:
 6) нажимаем Merge Pull request - Merge
 7) после того как все изменения закомичены, переключаемся обратно в ветку main - git checkout main
 8) но сейчас мы переключились локально в ветку main, а все изменения сохранены на удаленном репозитории, нам нужно синхронизироваться с основным репозиторием - git pull
+=======
+>>>>>>> f32e6b8cac9740640f9a09b6d8dca1f9c6248090
 
 
 
