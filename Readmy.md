@@ -9,6 +9,11 @@ __Topics__:
 
 __Steps__:
 1) добавим package-lock.json в гит - либо "git add .", либо правой кнопкой по файлу - Git - Add
+2) добавим коммит - git commit -m "finish project config" - либо cmd + k
+3) запушим коммит, либо cmd + shift + k - либо "git push -u origin webpack"
+4) далее мы создаем pull request - заходим в репу на гитхабе и нажимаем на кнопку Compare & pull request
+5) нажимаем create pull request - но это еще не значит, что все смерджилось
+6) нажимаем Merge Pull request - Merge
 
 
 
