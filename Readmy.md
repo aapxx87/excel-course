@@ -1,4 +1,169 @@
 __________________________________________
+Block: верстка
+Unit 9: Работа с Git
+Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160262246
+
+__Topics__:
+1) в папке assets создаем новый html файл для шаблона дашборда - dashboard.html
+2) в index.html удаляем содержимое контейнера app
+
+
+__Steps__:
+
+
+
+
+__________________________________________
+Block: верстка
+Unit 8: Верстка главной страницы
+Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160262243
+
+__Topics__:
+
+
+__Steps__:
+1) создадим папку assets, где создадим новый файл  excel.html, куда перенесем html код из index.html - это статика, которая в дальнейшем позволит нам взаимодействовать с шаблоном, чтобы его не хранить
+
+2) index.html - берем и очищаем контент din app
+
+3) index.html - создаем структуру для страницы дашборда
+
+4) в папке scss создадим новый файл dashboard.scss
+
+
+
+
+
+
+
+
+
+__________________________________________
+Block: верстка
+Unit 7: Верстка таблицы
+Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160262243
+
+__Topics__:
+
+
+__Steps__:
+1) index.html - добавляем разметку для таблицы
+2) table.scss - добавляем стили
+
+
+
+
+
+
+
+
+
+__________________________________________
+Block: верстка
+Unit 6: Стили для formula
+Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160262229
+
+__Topics__:
+
+
+__Steps__:
+1) index.html - добавляем разметку для формулы
+2) formula.scss - добавляем стили
+
+
+
+
+
+
+
+
+
+
+__________________________________________
+Block: верстка
+Unit 5: Стили для toolbar
+Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160262228
+
+__Topics__:
+
+
+__Steps__:
+1) toolbar.scss - добавляем стили
+2) index.html - добавляем разметку для тулбара
+
+
+
+
+
+
+
+
+
+
+
+__________________________________________
+Block: верстка
+Unit 4: Стили для header
+Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160262227
+
+__Topics__:
+
+https://google.github.io/material-design-icons/
+https://material.io/resources/icons/?style=baseline
+
+
+__Steps__:
+1) index.html - вставим линк на иконуи cdn - <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+   rel="stylesheet">
+2) index.html - добавляем разметку в excel__header
+3) header.scss - добавим стили
+
+
+
+
+
+
+
+
+
+__________________________________________
+Block: верстка
+Unit 3: Создание структуры
+Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160262186
+
+__Topics__:
+
+
+
+__Steps__:
+1) учитывая что мы делаем новую фичу, нам нужно создать новую ветку git (учитывем что сейчас мы находимся в master ветке) - создадим и переключимся в новую ветку - git checkout -b "css-layout"
+2) установим доп пакет normalize.css - позволяет сделать все элементы в приложении одинаковыми для броузеров - npm install normalize.css - мы ее устанавливаем и она не считается доп библиотекой
+3) index.scss - подключаем библиотеку normalize
+4) index.scss - подключим сразу шрифты - https://fonts.google.com/specimen/Roboto
+5) мы будем в scss работать с переменными и mixins, поэтому файлы, вещи из которых мы не будем конвертировать в css мы даем им названия через _ - создадим в папке scss файл _variables.scss, здесь мы будем хранить список всех переменных, _mixins.scss - список всех миксинов
+6) в папке scss создадим файлы для компонентов - header.scss, toolbar.scss, formula.scss, table.scss
+7) подключим во всех созданных файлах variables и mixins
+8) подключим данные файлы в index.scss, чтобы была единая точка входа для стилей
+9) index.html -  занесем базовую разметку, корневые классы
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__________________________________________
 Block: настройка окружения
 Unit 9: Работа с Git
 Link: https://vladilen.ru/pl/teach/control/lesson/view?id=160210306
